@@ -69,7 +69,7 @@ if len(linhasnew) == len(linhasold):
             for i in range(len(a)):
                 if a[i] != b[i]:
                     #Geração de Relatório
-                    p = (\nRelatorio: Componente Alterado: {} Componente Após a Alteração: {}\n.format(b[i],a[i]))
+                    p = ("\nRelatorio: Componente Alterado: {} Componente Após a Alteração: {}\n".format(b[i],a[i]))
 
 #Teste de git
 
