@@ -71,6 +71,8 @@ if len(linhasnew) == len(linhasold):
                     #Geração de Relatório
                     p = (\nRelatorio: Componente Alterado: {} Componente Após a Alteração: {}\n.format(b[i],a[i]))
 
+#Teste de git
+
 #Comparação Tamanho dos Arquivos(Adição/Remoção de Maquinas)
 if len(linhasnew) > len(linhasold):
     p = ("\nUma nova maquina foi adicionada\n")
